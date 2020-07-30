@@ -3144,6 +3144,94 @@ input, select, textarea {
 			margin: 3em 0 0 0;
 		}
 
+	#header5 {
+		background-attachment: scroll,							scroll,					fixed;
+		background-image: url("images/top-3200.svg"), url("city.jpg"), url("../../images/city.jpg");
+		background-position: bottom center,					top left,				center center;
+		background-repeat: repeat-x,						repeat,					no-repeat;
+		background-size: 3200px 460px,					auto,					cover;
+		color: rgba(255, 255, 255, 0.8);
+		padding: 10em 0 15em 0;
+		position: relative;
+		text-align: center;
+	}
+
+		#header5:before, #header5:after {
+			background: rgba(224, 224, 224, 0.75);
+			content: '';
+			left: 50%;
+			position: absolute;
+			width: 1px;
+			z-index: 0;
+		}
+
+		#header5:before {
+			height: calc(100% - 50px);
+			opacity: 0.15;
+			top: 0;
+		}
+
+		#header5:after {
+			bottom: 0;
+			height: 50px;
+		}
+
+		#header5 a {
+			border-bottom-color: rgba(255, 255, 255, 0.35);
+			color: rgba(255, 255, 255, 0.8);
+		}
+
+			#header5 a:hover {
+				border-bottom-color: transparent;
+				color: #4eb980;
+			}
+
+		#header5 strong, #header4 b {
+			color: #ffffff;
+		}
+
+		#header5 h1, #header4 h2, #header4 h3, #header4 h4, #header4 h5, #header4 h6 {
+			color: #ffffff;
+		}
+
+		#header5 input[type="submit"],
+		#header5 input[type="reset"],
+		#header5 input[type="button"],
+		#header5 .button {
+			background: #ffffff;
+			color: #544d55;
+		}
+
+		#header5 .logo {
+			background: #4eb980;
+			border-radius: 100%;
+			color: #ffffff;
+			cursor: default;
+			display: inline-block;
+			font-size: 2.25em;
+			height: 2.35em;
+			line-height: 2.35em;
+			margin: 0 0 0.75em 0;
+			text-align: center;
+			width: 2.35em;
+		}
+
+			#header5 .logo.fa-paper-plane-o:before {
+				left: -0.075em;
+				position: relative;
+			}
+
+		#header5 h1 {
+			font-size: 2.5em;
+			margin: 0;
+		}
+
+		#header5 p {
+			font-size: 1.5em;
+			line-height: 1.5em;
+			margin: 3em 0 0 0;
+		}
+
 /* Footer */
 
 	#footer {
