@@ -3664,6 +3664,113 @@ input, select, textarea {
 					#footer3 .copyright li a:hover, #footer3 .copyright li span:hover {
 						color: #ffffff;
 					}
+	#footer4 {
+		background-attachment: scroll;
+		background-color: ##353f52;
+		background-image: url("images/bottom-3200.svg");
+		background-position: top center;
+		background-repeat: repeat-x;
+		background-size: 3200px 460px;
+		color: rgba(255, 255, 255, 0.8);
+		/*
+				Since the SVG background occupies a lot of vertical space, we'll
+				add additional top padding (to move our content out of its way)
+				and a negative margin (to move everything up a bit).
+			*/
+
+		margin-top: -260px;
+		padding: calc(460px + 6em) 0 10em 0;
+		position: relative;
+		text-align: center;
+	}
+
+		#footer4:before {
+			background: rgba(224, 224, 224, 0.75);
+			content: '';
+			height: calc(460px + 6em);
+			left: 50%;
+			position: absolute;
+			top: 0;
+			width: 1px;
+			z-index: 0;
+		}
+
+		#footer4 a {
+			color: #ffffff;
+		}
+
+		#footer4 strong, #footer3 b {
+			color: #ffffff;
+		}
+
+		#footer4 h1, #footer3 h2, #footer3 h3, #footer3 h4, #footer3 h5, #footer3 h6 {
+			color: #ffffff;
+		}
+
+		#footer4 header p {
+			color: rgba(255, 255, 255, 0.5);
+		}
+
+		#footer4 input[type="submit"],
+		#footer4 input[type="reset"],
+		#footer4 input[type="button"],
+		#footer4 .button {
+			background: #ffffff;
+			box-shadow: inset 0 0 0 1px #ffffff;
+			color: #4eb980;
+		}
+
+			#footer4 input[type="submit"]:hover,
+			#footer4 input[type="reset"]:hover,
+			#footer4 input[type="button"]:hover,
+			#footer4 .button:hover {
+				background: rgba(224, 224, 224, 0.15);
+				color: #ffffff;
+			}
+
+		#footer4 input[type="text"]:focus,
+		#footer4 input[type="password"]:focus,
+		#footer4 input[type="email"]:focus,
+		#footer4 select:focus,
+		#footer4 textarea:focus {
+			border-color: #ffffff;
+		}
+
+		#footer4 .formerize-placeholder {
+			color: rgba(255, 255, 255, 0.3) !important;
+		}
+
+		#footer4 form {
+			margin: 3em 0;
+		}
+
+		#footer4 .copyright {
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 0.8em;
+			line-height: 1em;
+			margin: 3em 0 0 0;
+		}
+
+			#footer4 .copyright li {
+				border-left: dotted 1px;
+				display: inline-block;
+				margin-left: 1em;
+				padding-left: 1em;
+			}
+
+				#footer4 .copyright li:first-child {
+					padding: 0;
+					margin: 0;
+					border: 0;
+				}
+
+				#footer4 .copyright li a, #footer3 .copyright li span {
+					color: inherit;
+				}
+
+					#footer4 .copyright li a:hover, #footer3 .copyright li span:hover {
+						color: #ffffff;
+					}
 /* Main */
 
 	#main {
